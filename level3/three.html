@@ -32,7 +32,7 @@
         <div class="bg-white p-6 rounded-lg mb-6">
             <h2 class="text-2xl font-semibold text-gray-800 mb-4">Task 1: Create a 3-Column Grid</h2>
             <!-- TASK 1: Modify this <div> tag - Look for bg-gray-200 with three "Column" divs -->
-            <div class="bg-gray-200 p-4 rounded">
+            <div class="bg-gray-200 p-4 rounded grid grid-cols-3 gap-4">
                 <!-- Add grid, grid-cols-3, and gap-4 classes here -->
                 <div class="bg-blue-500 text-white p-6 rounded text-center">Column 1</div>
                 <div class="bg-green-500 text-white p-6 rounded text-center">Column 2</div>
@@ -66,7 +66,7 @@
             <h2 class="text-2xl font-semibold text-gray-800 mb-4">Task 2: Column Spanning</h2>
             <div class="bg-gray-200 p-4 rounded grid grid-cols-3 gap-4">
                 <!-- TASK 2: Modify this <div> tag - Look for bg-red-500 with "Spans 2 columns" text -->
-                <div class="bg-red-500 text-white p-6 rounded text-center col-span-2">Spans 2 columns</div>
+                <div class="bg-red-500 text-white p-6 rounded text-center col-span-3">Spans 2 columns</div>
                 <div class="bg-yellow-500 text-white p-6 rounded text-center">Column 3</div>
                 <div class="bg-orange-500 text-white p-6 rounded text-center">Column 4</div>
                 <div class="bg-pink-500 text-white p-6 rounded text-center">Column 5</div>
@@ -100,7 +100,7 @@
             <h2 class="text-2xl font-semibold text-gray-800 mb-4">Task 3: Row Spanning</h2>
             <div class="bg-gray-200 p-4 rounded grid grid-cols-3 grid-rows-2 gap-4">
                 <!-- TASK 3: Modify this <div> tag - Look for bg-teal-500 with "Spans 2 rows" text -->
-                <div class="bg-teal-500 text-white p-6 rounded text-center row-span-2">Spans 2 rows</div>
+                <div class="bg-teal-500 text-white p-6 rounded text-center grid-rows-2 row-span-8">Spans 2 rows</div>
                 <div class="bg-pink-500 text-white p-6 rounded text-center">Item 2</div>
                 <div class="bg-indigo-500 text-white p-6 rounded text-center">Item 3</div>
                 <div class="bg-cyan-500 text-white p-6 rounded text-center">Item 4</div>
@@ -175,7 +175,7 @@
         <div class="bg-white p-6 rounded-lg mb-6">
             <h2 class="text-2xl font-semibold text-gray-800 mb-4">Task 5: Grid Gaps</h2>
             <!-- TASK 5: Modify this <div> tag - Look for bg-gray-200 with grid-cols-3 -->
-            <div class="bg-gray-200 p-4 rounded grid grid-cols-3 gap-6">
+            <div class="bg-gray-200 p-4 rounded grid grid-cols-3 gap-x-8 gap-y-2">
                 <div class="bg-cyan-500 text-white p-6 rounded text-center">Item 1</div>
                 <div class="bg-emerald-500 text-white p-6 rounded text-center">Item 2</div>
                 <div class="bg-violet-500 text-white p-6 rounded text-center">Item 3</div>
@@ -255,4 +255,3 @@
     </div>
 </body>
 </html>
-
